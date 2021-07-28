@@ -5,6 +5,9 @@ module.exports = {
     mode: 'production',
     entry: {
         comment: './src/comment.js',
+        focusMode: './src/focusMode.js',
+        forwardAudio: './src/forwardAudio.js',
+        rewindAudio: './src/rewindAudio.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
