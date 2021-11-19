@@ -1,6 +1,5 @@
-function getSelectionText() {
-    var text = '';
-    text = window.getSelection().toString();
+function getSelectionText(): string {
+    const text = window.getSelection().toString();
 
     return text;
 }
